@@ -1,0 +1,14 @@
+\babel@toc {swedish}{}\relax 
+\contentsline {section}{\numberline {1}Inledning}{2}{}%
+\contentsline {subsection}{\numberline {1.1}frågeställningar}{2}{}%
+\contentsline {section}{\numberline {2}Resultat}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Avfallsförbränning, så fungerar det}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Lokala och globala miljöpåverkningar av avfallsförbränning}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Hur avfallsförbränning påverka samhället lokalt och globalt}{2}{}%
+\contentsline {section}{\numberline {3}Slutsatser}{2}{}%
+\contentsline {section}{\numberline {4}Referenser}{2}{}%
+\contentsline {section}{\numberline {5}Annat som kan vara bra att veta}{2}{}%
+\contentsline {subsection}{\numberline {5.1}En underrubrik}{3}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}En underunderrubrik}{3}{}%
+\contentsline {subsection}{\numberline {5.2}Ekvationer}{3}{}%
+\contentsline {subsection}{\numberline {5.3}figurer}{3}{}%
