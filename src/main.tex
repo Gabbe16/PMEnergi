@@ -52,7 +52,6 @@
 
         \end{center}
     \end{titlepage}
-% Om arbetet är långt har det en innehållsförteckning, annars kan den utelämnas
     \tableofcontents
     \newpage
 
@@ -69,46 +68,33 @@
 
     \section{Resultat}
     \subsection{Avfallsförbränning, så fungerar det}
-    Enligt \textcite{SoporNu} fungerar avfallsförbränning genom att man har avfallseldade kraftvärmeverk som ska kunna producera både värme och el genom att bränna sopor. I själva kraftvärmeverket överförs värme av rökgaser till vatten som bildar ånga och som i sin tur driver en turbin för elproduktion. Sedan förs den resterande energin till fjärrvärmenätet som värmer hushåll i Sverige.
+    \begin{figure}[!h]
+        \includegraphics[width=0.8\textwidth]{../images/avfallförbränning.jpg}
+        \caption{En bild av hur förbränning av avfall fungerar. Källa: Malarenergi.se}
+        \label{fig:avfallsforbranning}
+    \end{figure}
+    Enligt \textcite{SoporNu} fungerar avfallsförbränning genom att man har avfallseldade kraftvärmeverk som ska kunna producera både värme och el genom att bränna sopor.
+    I själva kraftvärmeverket överförs värme av rökgaser till vatten som bildar ånga och som i sin tur driver en turbin för elproduktion.
+    Sedan förs den resterande energin till fjärrvärmenätet som värmer hushåll i Sverige.
+    Detta visas även i figuren~\ref{fig:avfallsforbranning}
     \subsection{Lokala och globala miljöpåverkningar av avfallsförbränning}
-    Vid förbränningsprocessen av avfall frigörs framförallt koldioxid och vatten och enligt \textcite{AvfallSverige} är det ett hygieniskt och miljömässigt bra sätt eftersom vi har otroligt bra reningstekniker och förbränningsförhållanden samtidigt som vi har bra kontroll av att inte släppa ut föroreningar av avfallsförbränningen. Idag kan man också nästan helt få rökgaserna som släpps ut att bestå av 99,9 procent ämnen som redan finns i luften, det vill säga kväve, vattenånga, koldioxid och syre.
+    Vid förbränningsprocessen av avfall frigörs framförallt koldioxid och vatten och enligt \textcite{AvfallSverige} är det ett hygieniskt och miljömässigt bra sätt eftersom vi har otroligt bra reningstekniker och förbränningsförhållanden samtidigt som vi har bra kontroll av att inte släppa ut föroreningar av avfallsförbränningen.
+    Idag kan man också nästan helt få rökgaserna som släpps ut att bestå av 99,9 procent ämnen som redan finns i luften, det vill säga kväve, vattenånga, koldioxid och syre.
 
     \newline
 
     Det finns däremot stora negativa påverkningar av miljön. Enligt \textcite{naturvardsverket} är bränderna svårsläckta och kan pågå i flera veckor och dem kan fortfarande släppa ut farliga gaser även fast vi har bra reningstekniker. Dessutom där soporna hamnar kallas för en deponi (soptip) och dessa samlar stora mängder föroreningar och miljögifter som sedan förs vidare av lakvatten, vatten från regn som därefter för dessa dåliga ämnen vidare. Själva deponierna ger upphov till utsläpp av ämnet metangas som i sig är en av dem värsta växthusgaserna. Metangas har nästan 25 gånger större påverkan än koldioxid och detta är ett av Europas största miljöproblem enligt \textcite{Vattenfall}.
     \subsection{Hur avfallsförbränning påverka samhället lokalt och globalt}
+    Påverkan i samhällen både lokalt och globalt är väldigt positivt eftersom enligt \textcite{stockholmenergi} fungerar avfallsförbränning i samhällen som njurar.
+    Det innebär som riktiga njurar att dessa anläggningar sorterar bort farliga ämnen ur kretsloppet.
+    I med att det fungerar som njurar är det då viktigare i långsikt också att ta bort dessa ämnen i samhällen.
 
     \section{Slutsatser}
     Här kan du dra slutsatser eller sammanfatta ditt resultat
 
-% Mer saker som du kan ha nytta av.
-
-    \section{Referenser}
-    Referenser i text kan skrivas på två sätt: Enligt \textcite{Jens} kan man använde två typer av referenser, inbäddade i texten eller efter ett fakta \parencite{Fraenkel}. Ett till test för att se hur det ser ut \parencite[sid 55]{fermi}.
-
-    \section{Annat som kan vara bra att veta}
-    Om du vill ha kodstil och få med alla tecken kan du använda verbatim. då kan du skriva \verb|abcd!"#| utan problem...
-
     Citat skrivs mellan de konstiga symbolerna \verb|``| och \verb|''| för att de ska se bra ut ``se bra ut!''.
-    \subsection{En underrubrik}
-    \subsubsection{En underunderrubrik}
-    \subsection{Ekvationer}
-    Det är lätt att skriva matematik i \LaTeX
 
-    \begin{equation}
-        F = G \frac{M m}{r^2}
-        \label{grav}
-    \end{equation}
 
-    Ekvation (\ref{grav}) känner ni igen...
-
-    \subsection{figurer}
-    Bilder placeras enklast på detta sätt. Placeringen bestämmer \LaTeX och vi kan bara föreslå (h)är, (t)opp eller (b)otten. Ett utropstecken före tvingar lite mer men inte absolut. I bild \ref{varg} visas en varg
-    \begin{figure}[!h]
-        \includegraphics[width=0.8\textwidth]{../images/accelerationTime.png}
-        \caption{Acceleration-tid diagram. Källa: Impuls Fysik 1}
-        \label{varg}
-    \end{figure}
     \printbibliography
 
 \end{document}
